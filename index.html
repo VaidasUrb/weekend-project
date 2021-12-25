@@ -6,12 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frisbee</title>
+    <link rel="stylesheet" href="./css/main/main.css">
 </head>
 
 <body>
-    <header>
-        <img src="./image/logo.png" alt="logo">
-    </header>
+    <main>
+        <header>
+            <div class="left">
+                <img class="logo" src="./image/logo.png" alt="logo">
+                <input class="search" type="text" placeholder="Search..">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+            <div class="right">
+                <a class="create" href="#">create frisbee</a>
+                <a href="#" class="fa fa-commenting"></a>
+                <a href="#" class="fa fa-bell-o"></a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <img src="./image/foto.png" alt="foto">Name
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="left-column">
+                <nav class="nav-btn">
+                    <a class="fa fa-home" href="#">Home</a>
+                    <a class="fa fa-spinner" href="#">Frisbees</a>
+                    <a class="fa fa-users" href="#">Teams</a>
+                    <a class="fa fa-puzzle-piece" href="#">Plug-in</a>
+                    <a class="fa fa-cogs" href="#">Setings</a>
+                </nav>
+            </div>
+            <div class="right-column">
+                <div class="top">
+                    <div class="top-left">
+                        <h1>Welcome back Courtney</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maiores ab ut similique, odit repudiandae.</p>
+                    </div>
+                    <div class="top-right">
+                        <img src="./image/man.png" alt="man">
+                    </div>
+                </div>
+                <div class="midle">
+                    <div class="midle-left">
+                        <p>Last frisbees sent</p>
+                    </div>
+                    <div class="midle-right"></div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
