@@ -9,7 +9,7 @@ _32 group website project_
 
 This project is for **educational** porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://vaidasurb.github.io/sig-up/
+Site published at: https://vaidasurb.github.io/weekend-project/
 
 Design: [Frisbee](https://media.discordapp.net/attachments/850245533838868480/916032769006665758/abb0224c558f629aebaa3a1270a23555.png?width=832&height=624)
 
