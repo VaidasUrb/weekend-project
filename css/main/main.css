@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    text-transform: capitalize;
     background-color: #90c3f4;
 }
 
@@ -65,6 +66,7 @@ header {
     line-height: 20px;
     padding: 10px 20px;
     text-decoration: none;
+    margin-right: 20px;
     background-color: #eaa5ee;
     color: #fff;
     border-radius: 20px;
@@ -76,12 +78,17 @@ header {
     font-size: 36px;
     vertical-align: bottom;
 }
+
+.create:hover {
+    background-color: #90c3f4;
+}
 .dropbtn {
     font-size: 20px;
     width: 100%;
     border-style: none;
     border-radius: 20px;
     padding: 10px;
+    margin-left: 5px;
     background-color: #fff;
 }
 
@@ -89,6 +96,18 @@ header {
 .fa-bell-o {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    padding: 0 12px;
+    border-radius: 30px;
+    color: #bbbcd0;
+    background-color: transparent;
+}
+
+.right > .fa:hover {
+    padding: 0 12px;
+    background-color: #90c3f4;
+    color: #fff;
+    border-radius: 30px;
 }
 .dropbtn > img {
     margin-right: 20px;
@@ -140,11 +159,19 @@ header {
     flex-direction: column;
     gap: 50px;
     padding: 10px;
-    margin-left: 10px;
 }
-
+nav > .fa::before {
+    margin-right: 20px;
+}
 nav > .fa {
     text-decoration: none;
+    padding: 10px;
+    color: #bbbcd0;
+}
+nav > .fa:hover {
+    background-color: #90c3f4;
+    color: #fff;
+    border-radius: 10px;
 }
 
 .right-column {
@@ -165,4 +192,98 @@ nav > .fa {
     justify-content: center;
     width: 50%;
     margin: 20px 10px 20px 20px;
+}
+
+.midle {
+    width: 100%;
+}
+
+.midle-left {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.midle-left-table {
+    width: 45%;
+    box-shadow: 5px 5px 10px 10px #90c3f4;
+    border-radius: 20px;
+}
+
+.midle-left-table-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.circle {
+    width: 50px;
+    padding: 10px;
+}
+
+.team,
+.marketing {
+    margin: 0;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.team {
+    font-size: 12px;
+    margin-top: 15px;
+    color: #bbbcd0;
+}
+
+.midle-left-table > .inventory,
+.sent,
+.responses {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.midle-right-table {
+    width: 50%;
+}
+
+.midle-right {
+    width: 50%;
+}
+
+.midle-right-table {
+    width: 45%;
+    margin-left: 10px;
+    box-shadow: -5px 5px 10px 10px #90c3f4;
+    border-radius: 20px;
+}
+
+.midle-right-table-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.midle-right-table > .inventory,
+.sent,
+.responses {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.sent {
+    font-size: 12px;
+    color: #bbbcd0;
+}
+
+.responses {
+    font-size: 12px;
+    margin-bottom: 10px;
 }
